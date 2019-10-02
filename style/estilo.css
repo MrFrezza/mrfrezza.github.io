@@ -1,0 +1,37 @@
+html,body {
+    height: 100%;
+    /* background-color: #4696e5; */
+}
+
+header {
+    margin-top: 15px;
+}
+
+#fundo {
+    background-color: #333333;
+}
+
+.cabecalho {
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+#parte_um{
+    background-color: rgb(231, 228, 228);
+    text-align: center;
+}
+
+.box.style1{
+    padding: 3em 2em 3.5em 2em;
+}
+
+.box{
+    background-color: #ffffff;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#conteudo{
+    margin-top: 15px;
+}
