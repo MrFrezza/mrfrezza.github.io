@@ -40,3 +40,31 @@ header {
 .jumbotron {
     background-color:transparent !important; 
 }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 490px) { 
+    .h3, h3{
+        font-size: 1.25rem;
+    }
+
+    .box.style1{
+        padding: 1.5em 1em 1.25em 1em;
+    }
+
+    .display-4{
+        font-size: 3rem;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 491px) and (max-width: 768px) {
+    .box.style1{
+        padding: 1.5em 1em 1.25em 1em;
+    }
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
